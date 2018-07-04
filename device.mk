@@ -15,7 +15,7 @@
 #
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/huawei/berkeley/berkeley-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/mha/mha-vendor.mk)
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -30,5 +30,5 @@ DEVICE_PACKAGE_OVERLAYS += \
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit from kirin970-common
-$(call inherit-product, device/huawei/kirin970-common/kirin970.mk)
+# Inherit from hi3660-common
+$(call inherit-product, device/huawei/hi3660-common/hi3660.mk)

@@ -18,8 +18,8 @@
 set -e
 
 # Required!
-export DEVICE=berkeley
-export DEVICE_COMMON=kirin970-common
+export DEVICE=mha
+export DEVICE_COMMON=hi3660-common
 export VENDOR=huawei
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
