@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/huawei/berkeley/full_berkeley.mk)
+$(call inherit-product, device/huawei/hi3660/full_hi3660.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_berkeley
-PRODUCT_DEVICE := berkeley
+PRODUCT_NAME := lineage_hi3660
+PRODUCT_DEVICE := hi3660
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Honor View 10
+PRODUCT_MODEL := Mate 9

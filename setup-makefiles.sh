@@ -18,8 +18,8 @@
 set -e
 
 # Required!
-export DEVICE=berkeley
-export DEVICE_COMMON=kirin970-common
+export DEVICE=hi3660
+export DEVICE_COMMON=kirin960-common
 export VENDOR=huawei
 
 ./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
