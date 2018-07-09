@@ -19,4 +19,4 @@
 DEVICE_PATH := device/huawei/hi3660
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := hi3660,kirin960
+TARGET_OTA_ASSERT_DEVICE := hi3660
