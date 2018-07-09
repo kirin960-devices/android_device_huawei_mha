@@ -31,4 +31,4 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit from kirin960-common
-$(call inherit-product, device/huawei/kirin960-common/kirin960.mk)
+$(call inherit-product, device/huawei/kirin960-common/hi3660.mk)
