@@ -19,20 +19,20 @@
 <device name="Android">
   <!-- All values are in mA except as noted -->
   <item name="none">0</item>
-  <item name="screen.on">95</item> <!-- min brite -->
+  <item name="screen.on">104</item> <!-- min brite -->
   <item name="bluetooth.active">97</item>
   <item name="bluetooth.on">0.6</item>
   <item name="bluetooth.at">0.6</item> <!-- TBD -->
-  <item name="screen.full">365</item> <!-- backlight 16 leds -->
+  <item name="screen.full">330</item> <!-- backlight 16 leds -->
   <item name="wifi.on">0.6</item>
   <item name="wifi.active">128</item>
   <item name="wifi.scan">146</item>
-  <item name="dsp.audio">43</item> <!-- k3v5 -->
-  <item name="dsp.video">176</item>
-  <item name="radio.active">190</item>
+  <item name="dsp.audio">38</item> <!-- k3v5 -->
+  <item name="dsp.video">163</item>
+  <item name="radio.active">180</item>
   <item name="gps.on">70</item>
-  <item name="battery.capacity">3750</item> <!-- 3750mAh -->
-  <item name="radio.scanning">65</item> <!-- TBD -->
+  <item name="battery.capacity">3900</item> <!-- 3900mAh -->
+  <item name="radio.scanning">60</item> <!-- TBD -->
   <!-- Current consumed by the radio at different signal strengths, when paging  -->
   <array name="radio.on"> <!-- 1 entry per signal strength bin, TBD -->
     <value>13.0</value>
@@ -52,7 +52,7 @@
     <value>2612000</value><!-- 2.6 GHz CPU speed -->
   </array>
   <!-- Power consumption in suspend -->
-  <item name="cpu.idle">5</item> <!-- k3v5 -->
+  <item name="cpu.idle">4</item> <!-- k3v5 -->
   <!-- Power consumption due to wake lock held -->
   <item name="cpu.awake">35</item> <!-- k3v5 -->
   <!-- Power consumption at different speeds -->
