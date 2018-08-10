@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_hi3660.mk
+    $(LOCAL_DIR)/lineage_hi3660.mk
